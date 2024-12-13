@@ -16,7 +16,8 @@ public interface ProductImagesV2 {
 
     /**
      * Text that appears in place of an image on a webpage if the image fails to load.
-     * i.e, BTFBM Women's 2019 Casual Crew Neck Ruched Stretchy Bodycon T Shirt Short Mini Dress (104Navy, Medium)
+     * i.e, BTFBM Women's 2019 Casual Crew Neck Ruched Stretchy Bodycon T Shirt Short Mini Dress (104Navy,
+     * Medium)
      *
      * @return The alternate text for the image.
      */
@@ -26,8 +27,8 @@ public interface ProductImagesV2 {
 
         /**
          * The Media object containing the physicalId, height, width, and extension from which the media
-         * url can be fetched for lowRes image (upto 500px in height and width), Used to render product Images on
-         * Detail Pages.
+         * url can be fetched for lowRes image (upto 500px in height and width), Used to render product
+         * Images on Detail Pages.
          * It corresponds to LG sized image in Media Services and Applications (MSA).
          *
          * @return StyledMedia with the low resolution image details.
